@@ -5,13 +5,13 @@ function CALCULATOR() {
   const [Num1, setNum1] = useState("");
   const [Num2, setNum2] = useState("");
   const [Result, setResult] = useState("");
-  const [operator, setOperator] = useState("");   // ADDED
+  const [operator, setOperator] = useState("");  
 
-  const chooseOperator = (op) => {               // ADDED
+  const chooseOperator = (op) => {               
     setOperator(op);
   };
 
-  const compute = () => {                        // ADDED
+  const compute = () => {                        
     const n1 = parseFloat(Num1);
     const n2 = parseFloat(Num2);
 
@@ -27,7 +27,7 @@ function CALCULATOR() {
     setNum1("");
     setNum2("");
     setResult("");
-    setOperator("");                              // ADDED
+    setOperator("");                              
   };
 
   return (

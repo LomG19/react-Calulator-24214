@@ -1,0 +1,37 @@
+.calc-container {
+    width: 280px;
+    margin: 50px auto;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    width: 110px;        /* 1. Gives all labels a fixed width */
+    flex-shrink: 0;      /* 2. Prevents labels from shrinking */
+    margin-right: 10px;  /* 3. Keeps your space */
+}
+
+.input-group input {
+    flex: 1;         /* makes all inputs the same width */
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+.op-button {
+    padding: 15px;
+    margin: 7px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}

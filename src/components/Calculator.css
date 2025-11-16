@@ -13,13 +13,13 @@
 }
 
 .input-group label {
-    width: 110px;        /* 1. Gives all labels a fixed width */
-    flex-shrink: 0;      /* 2. Prevents labels from shrinking */
-    margin-right: 10px;  /* 3. Keeps your space */
+    width: 110px;       
+    flex-shrink: 0;      
+    margin-right: 10px;  
 }
 
 .input-group input {
-    flex: 1;         /* makes all inputs the same width */
+    flex: 1;         
     padding: 8px;
     box-sizing: border-box;
 }
